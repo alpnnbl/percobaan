@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Be+Vietnam+Pro&family=Open+Sans:wght@300&family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    background-size: 100%;
+    user-select: none;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: burlywood;
+    border-bottom: 5px solid white;
+    display: flex;
+    float: right;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 250px;
+    height: 335px;
+    margin-top: 3%;
+    border-radius: 120px;
+    border: 5px solid black;
+}
+
+.nama {
+    font-family: 'Copperplate', Fantasy;
+    font-size: 38px;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+    animation: font-animation 7s linear infinite;
+}
+
+@keyframes color-animation {
+    0%    {color: lightblue}
+    20%   {color: white}
+    30%   {color: greenyellow}
+    50%   {color: pink}
+    66%   {color: azure}
+    70%   {color: orange}
+    90%   {color: rgb(255, 255, 16)}
+    100%  {color: #37B1E2}
+}
+
+.nama:hover {
+    animation: color-animation 3s linear infinite;
+}
+
+.webdeveloper {
+    font-family: 'Copperplate', Fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+}    
+
+.overview {
+    font-family: 'Bayon';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.kenalkan {
+    font-family: 'Copperplate', Fantasy;
+    font-size: 30px;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: 'Bayon';
+}
+  
+table tr,td,th {
+    border: solid;
+    width: 30%;
+}
+  
+td{
+    padding: 40px 0;
+    text-align: center;
+    padding-left: 60px;
+}
+  
+th{
+    padding: 20px 20px;
+    font-size: 26px;
+    text-align: center;
+}
+  
+td li {
+    font-size: 26px;
+    text-align: left;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*contact*/
+
+.contactme {
+    font-family: 'Copperplate', Fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+    animation: font-animation 7s linear infinite;
+}
+
+@keyframes color-animation {
+    0%    {color: lightblue}
+    20%   {color: white}
+    30%   {color: greenyellow}
+    50%   {color: pink}
+    66%   {color: azure}
+    70%   {color: orange}
+    90%   {color: rgb(255, 255, 16)}
+    100%  {color: #37B1E2}
+}
+
+.contactme:hover {
+    animation: color-animation 3s linear infinite;
+}
+
+form {
+    width: 50%;
+    gap: 1rem;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: black;
+    font-family: 'optima';
+}
+
+input, textarea {
+    padding: 1rem;
+    color: #572c19;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button {
+    width: 90px;
+    color: #572c19;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'optima';
+}
+
+/*abaout me*/
+
+.abaoutme {
+    font-family: 'Copperplate', Fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+    animation: font-animation 7s linear infinite;
+}
+
+@keyframes color-animation {
+    0%    {color: lightblue}
+    20%   {color: white}
+    30%   {color: greenyellow}
+    50%   {color: pink}
+    66%   {color: azure}
+    70%   {color: orange}
+    90%   {color: rgb(255, 255, 16)}
+    100%  {color: #37B1E2}
+}
+
+.abaoutme:hover {
+    animation: color-animation 3s linear infinite;
+}
+
+div {
+    font-family: 'Copperplate', Fantasy;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.vid {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        width: 100%;
+    }
+    li a {
+        font-size: 15px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto {
+        width: 230px;
+        height: 300px;
+    }
+
+    .nama {
+        font-size: 30px;
+    }
+
+    .kenalkan{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    .overview {
+        margin-top: 15%;
+        font-size: 40px;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+    }
+}
